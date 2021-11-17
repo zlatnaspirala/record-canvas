@@ -4,6 +4,8 @@
 ### Based on MediaRecorder API Javascript
 ### Minimum ECMA6
 
+Script type `module`.
+
 Idea:
 
 ```cpp

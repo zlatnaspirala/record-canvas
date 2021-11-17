@@ -1,6 +1,21 @@
 
-Click to generate mp4 video.
-
-<canvas id='canvas'></canvas>
-
-<script src="./index.js"></script>
+<html>
+  <head>
+    <style>
+      canvas {
+        border: solid 1px red;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <div>
+        <h3>Generate mp4 video</h3>
+        <input type="number" id="videoDuration" value="10">
+      </div>
+      <canvas width='800' height='600' id='canvas'>No support</canvas>
+    </div>
+    <script type="module" src="index.js"></script>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
