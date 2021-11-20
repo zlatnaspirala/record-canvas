@@ -1,6 +1,6 @@
 {
   "name": "record-canvas",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Save context from canvas to the mp4 video, save file can be automatic without initial click but audio context must be after first click. Save any canvas (inject by id) .",
   "main": "index.js",
   "scripts": {

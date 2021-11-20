@@ -2,4 +2,3 @@
 node_modules/**/*
 node_modules/.bin/
 package-lock.json
-node_modules/@babel/helper-module-transforms/lib/index.js

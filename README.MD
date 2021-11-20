@@ -1,19 +1,21 @@
+# Project name record-canvas
+### Compositor is WEB-VIDEO-CREATOR with basic functionallity. Based on MediaRecorder API Javascript - Minimum ECMA6
 
-# Project name Compositor
-### Compositor is WEB-VIDEO-CREATOR with basic functionallity
-### Based on MediaRecorder API Javascript
-### Minimum ECMA6
-
+### - Work with source and build from source:
 Script type `module`.
-
 First install node modules with `npm i`.
 
-Build library with:
+Build library (js text plane) with:
 ```js
 npm run build
 ```
-
 Take a look at `./build/compositor.lib.js`
+
+### - For npm users first install it with:
+
+```js
+npm i record-canvas
+```
 
 ## How to use it:
 ```js
