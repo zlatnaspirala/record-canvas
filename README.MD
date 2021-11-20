@@ -23,8 +23,9 @@ npm i record-canvas
 // import { compositor } from "./src/index"; DEV
 
 function attachFunction() {
-  // videoDuration
-  const videoDuration = document.getElementById('videoDuration').value;
+
+  const videoDuration = 10; // Second
+  // const videoDuration = document.getElementById('videoDuration').value;
 
   const mainOption = {
     injectCanvas: "canvas",
