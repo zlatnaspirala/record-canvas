@@ -1,16 +1,18 @@
 
-import { generateVideoProcedure } from "./index.js";
+import { compositor } from "./src/index";
 
 function attachFunction() {
-  // videoDuration
 
-  const videoDuration = document.getElementById('videoDuration').value;
+  const videoDuration = 10; // Second
+  // const videoDuration = document.getElementById('videoDuration').value;
 
   const mainOption = {
+    injectCanvas: "canvas",
+    frameRequestRate: 30,
     videoDuration: videoDuration
   };
 
-  generateVideoProcedure(mainOption);
+  compositor(mainOption);
   window.removeEventListener("click", attachFunction);
 }
 

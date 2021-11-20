@@ -6,7 +6,44 @@
 
 Script type `module`.
 
-Idea:
+First install node modules with `npm i`.
+
+Build library with:
+```js
+npm run build
+```
+
+Take a look at `./build/compositor.lib.js`
+
+## How to use it:
+```js
+ import { compositor } from "compositor";
+// import { compositor } from "./src/index"; DEV
+
+function attachFunction() {
+  // videoDuration
+  const videoDuration = document.getElementById('videoDuration').value;
+
+  const mainOption = {
+    injectCanvas: "canvas",
+    frameRequestRate: 30,
+    videoDuration: videoDuration
+  };
+
+  compositor(mainOption);
+  window.removeEventListener("click", attachFunction);
+}
+
+window.addEventListener("click", attachFunction);
+```
+
+### Next features:
+   Add input options:
+    - No generic audio context - No user request needed for download
+
+
+### Idea:
+To combine any source. To be reusable in any case.
 
 ```cpp
  INPUT PARAMS:
