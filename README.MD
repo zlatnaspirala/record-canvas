@@ -43,7 +43,7 @@ window.addEventListener("click", attachFunction);
 
 ### `index.html` Record-Canvas-Tool
 
-![text-example](https://github.com/zlatnaspirala/nidza/blob/imgs/logo1.png)
+![text-example](https://github.com/zlatnaspirala/record-canvas/blob/main/imgs/logo1.png)
 
 ### Next features:
    Add input options:
