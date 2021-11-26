@@ -1,3 +1,4 @@
+![text-example](https://github.com/zlatnaspirala/record-canvas/blob/main/imgs/logo1.png)
 # Project name record-canvas
 ### Compositor is WEB-VIDEO-CREATOR with basic functionallity. Based on MediaRecorder API Javascript - Minimum ECMA6
 
@@ -43,7 +44,7 @@ window.addEventListener("click", attachFunction);
 
 ### `index.html` Record-Canvas-Tool
 
-![text-example](https://github.com/zlatnaspirala/record-canvas/blob/main/imgs/logo1.png)
+![text-example](https://github.com/zlatnaspirala/record-canvas/blob/main/imgs/record-canvas.png)
 
 ### Next features:
    Add input options:
