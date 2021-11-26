@@ -1,0 +1,120 @@
+
+body {
+  font-size: 30px;
+  background:-webkit-gradient(linear, 80% 80%, 0% 0%, from(#202020), to(#313131))
+}
+
+select {
+  width: 130px;
+  -webkit-box-shadow: 0px -7px 3px 7px #000000;
+  box-shadow: 0px -7px 3px 7px #574425;
+  color: #FFFFFF;
+  background: #333333;
+  text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
+  -webkit-border-radius: 0px 0px 0px 0px;
+  -moz-border-radius: 0px 0px 0px 0px;
+  border-radius: 0px 0px 0px 0px;
+  background-repeat: repeat;
+}
+
+option {
+  background-color: #333333;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 150px;
+}
+
+.matrix1 {
+  background: linear-gradient(-45deg, #000000, #25f600, #000000, #0ba506);
+  background-size: 400% 400%;
+  animation: bgAnim 15s ease infinite;
+  height: 100vh;
+}
+
+@keyframes bgAnim {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.topHeader {
+  height: 100px;
+  -moz-box-shadow: 0px 1px 5px #000000;
+  -webkit-box-shadow: 0px 1px 5px #000000;
+  box-shadow: 0px 1px 5px #000000;
+  background:-webkit-gradient(linear, 0% 82%, 19% 78%, from(#40413D), to(#444443));
+  margin-bottom: 5px;
+}
+
+.externalIframe {
+  -moz-box-shadow: 2px 1px 8px #000000;
+  -webkit-box-shadow: 2px 1px 8px #000000;
+  box-shadow: 2px 1px 8px #000000;
+  border:none;
+}
+
+.noradius {
+  margin: 5px 5px 5px 5px;
+  font-size: 24px;
+  -moz-box-shadow: 3px 0px 6px #000000;
+  -webkit-box-shadow: 3px 0px 6px #000000;
+  box-shadow: 3px 0px 6px #000000;
+  color: #FFFFFF;
+  background: darkred;
+  text-shadow:-2px 0px 9px #0e4f63;
+  border:solid 1px #000000;
+  -moz-border-radius-topleft: 5px;
+  -moz-border-radius-topright:5px;
+  -moz-border-radius-bottomleft:5px;
+  -moz-border-radius-bottomright:5px;
+  -webkit-border-top-left-radius:5px;
+  -webkit-border-top-right-radius:5px;
+  -webkit-border-bottom-left-radius:5px;
+  -webkit-border-bottom-right-radius:5px;
+  border-top-left-radius:5px;
+  border-top-right-radius:5px;
+  border-bottom-left-radius:5px;
+  border-bottom-right-radius:5px;
+}
+
+.noradius:hover {
+  border:solid 1px #ff129c;
+}
+
+.noradius:active {
+  border:solid 1px #1aff12;
+}
+
+.noradius-nohover {
+  margin: 5px 5px 5px 5px;
+  font-size: 24px;
+  -moz-box-shadow: 3px 0px 6px #000000;
+  -webkit-box-shadow: 3px 0px 6px #000000;
+  box-shadow: 3px 0px 6px #000000;
+  color: #FFFFFF;
+  background: darkred;
+  text-shadow:-2px 0px 9px #0e4f63;
+  border:solid 1px #000000;
+  -moz-border-radius-topleft: 5px;
+  -moz-border-radius-topright:5px;
+  -moz-border-radius-bottomleft:5px;
+  -moz-border-radius-bottomright:5px;
+  -webkit-border-top-left-radius:5px;
+  -webkit-border-top-right-radius:5px;
+  -webkit-border-bottom-left-radius:5px;
+  -webkit-border-bottom-right-radius:5px;
+  border-top-left-radius:5px;
+  border-top-right-radius:5px;
+  border-bottom-left-radius:5px;
+  border-bottom-right-radius:5px;
+}
+
+.inputField {
+  width: 100px;
+}

@@ -1,20 +1,42 @@
 
 <html>
   <head>
-    <style>
-      canvas {
-        border: solid 1px red;
-      }
-    </style>
+    <title>Canvas Recorder is simple and usefull lib created by zlatnaspirala</title>
+    <meta name="description" content="The benefits of this project is offering easy implementation of any canvas surface 2d or webgl context. Generate mp4 video from injected canvas." />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <link rel="apple-touch-icon" href="imgs/icons/512.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimal-ui" />
+    <link rel="icon"  type="image/png" sizes="96x96" href="imgs/icons/favicon-96x96.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="imgs/icons/android-icon.png" />
+    <link rel="icon" href="imgs/icons/favicon.ico" type="image/x-icon" />
+    <meta name="msapplication-TileImage" content="imgs/icons/ms-icon.png" />
+    <link rel='stylesheet' href="css/recorder.css" />
   </head>
   <body>
     <div>
-      <div>
-        <h3>Generate mp4 video</h3>
-        <input type="number" id="videoDuration" value="10">
+      <div style="display: flex;" class="topHeader">
+        <img src="./imgs/logo1.png">
+        <button id="startBtn" class="noradius">Start recording</button>
+        <div class="noradius" style="display: flex;align-items: center;">
+          <p style="padding: 5px 5px 5px 5px;" >Duration:</p>
+          <input type="number" id="videoDuration" class="inputField noradius-nohover" value="10" min="10">
+        </div>
+        <select name="resolution" id="resolution" class="noradius">
+        </select>
+        <button id="reloadBtn" class="noradius">Reload</button>
+        <select name="listOfRoutes" id="listOfRoutes" class="noradius">
+        </select>
       </div>
-      <canvas width='800' height='600' id='canvas'>No support</canvas>
+      <p>RecordCanvas Scene</p>
+      <iframe width="100%" height="80%" 
+              id="external-canvas" 
+              class="externalIframe"
+              src="http://localhost/PRIVATE_SERVER/matrix-engine-starter/projects/matrix-slot/"></iframe>
+      <!--canvas width='800' height='600' id='canvas'>No support</canvas-->
     </div>
-    <script type="module" src="main.js"></script>
+    <script type="module" src="any-canvas-example.js"></script>
   </body>
 </html>

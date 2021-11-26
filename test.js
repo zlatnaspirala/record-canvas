@@ -1,5 +1,5 @@
 
-import { compositor } from "./src/index";
+import { RecordCanvas } from "./src/index";
 
 function attachFunction() {
 
@@ -12,8 +12,11 @@ function attachFunction() {
     videoDuration: videoDuration
   };
 
-  compositor(mainOption);
+  let MyRecorder = new RecordCanvas(mainOption);
   window.removeEventListener("click", attachFunction);
+  MyRecorder.run();
+  MyRecorder.presentationPreview();
+  console.info("Test instance MyRecorder => " + MyRecorder);
 }
 
 window.addEventListener("click", attachFunction);

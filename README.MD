@@ -17,14 +17,15 @@ Take a look at `./build/compositor.lib.js`
 npm i record-canvas
 ```
 
-## How to use it:
+## How to use it [Basic example is test.html]:
 ```js
  import { compositor } from "compositor";
 // import { compositor } from "./src/index"; DEV
 
 function attachFunction() {
 
-  const videoDuration = 10; // Second
+  const videoDuration = 10; // Seconds
+  // Or collect it from DOM.
   // const videoDuration = document.getElementById('videoDuration').value;
 
   const mainOption = {
@@ -39,6 +40,10 @@ function attachFunction() {
 
 window.addEventListener("click", attachFunction);
 ```
+
+### `index.html` Record-Canvas-Tool
+
+![text-example](https://github.com/zlatnaspirala/nidza/blob/imgs/logo1.png)
 
 ### Next features:
    Add input options:

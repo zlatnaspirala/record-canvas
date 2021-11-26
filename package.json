@@ -1,7 +1,7 @@
 {
   "name": "record-canvas",
-  "version": "1.0.1",
-  "description": "Save context from canvas to the mp4 video, save file can be automatic without initial click but audio context must be after first click. Save any canvas (inject by id) .",
+  "version": "1.2.0",
+  "description": "1.2.0 adding simple recorder on index.html like example [dev]. Adding new arg options,From method to class.Save context from canvas to the mp4 video, save file can be automatic without initial click but audio context must be after first click. Save any canvas (inject by id) .",
   "main": "index.js",
   "scripts": {
     "build": "browserify ./src/index.js -p esmify > build/compositor.lib.js",
