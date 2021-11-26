@@ -21,12 +21,11 @@ npm i record-canvas
 #### How to use it [Basic example is test.html]:
 ```js
  import { compositor } from "compositor";
-// import { compositor } from "./src/index"; DEV
+// import { RecordCanvas } from "./src/index";
 
 function attachFunction() {
 
-  const videoDuration = 10; // Seconds
-  // Or collect it from DOM.
+  const videoDuration = 10; // Second
   // const videoDuration = document.getElementById('videoDuration').value;
 
   const mainOption = {
@@ -35,8 +34,11 @@ function attachFunction() {
     videoDuration: videoDuration
   };
 
-  compositor(mainOption);
+  let MyRecorder = new RecordCanvas(mainOption);
   window.removeEventListener("click", attachFunction);
+  MyRecorder.run();
+  MyRecorder.presentationPreview();
+  console.info("Test instance MyRecorder => " + MyRecorder);
 }
 
 window.addEventListener("click", attachFunction);
