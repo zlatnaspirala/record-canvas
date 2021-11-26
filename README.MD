@@ -12,13 +12,13 @@ npm run build
 ```
 Take a look at `./build/compositor.lib.js`
 
-### - For npm users first install it with:
+## - For npm users first install it with:
 
 ```js
 npm i record-canvas
 ```
 
-## How to use it [Basic example is test.html]:
+#### How to use it [Basic example is test.html]:
 ```js
  import { compositor } from "compositor";
 // import { compositor } from "./src/index"; DEV
