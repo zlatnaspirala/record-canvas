@@ -111,7 +111,7 @@ export class RecordCanvas {
     clearInterval(this.internalPresentationDrawer);
   }
 
-  presentationPreview = function() {
+  presentationPreview() {
     var x = 10;
     this.internalPresentationDrawer = setInterval(() => {
       x += 90;
