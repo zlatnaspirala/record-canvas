@@ -3,10 +3,10 @@
  * Npm service index.js for compositor
  */
 
-import { RecordCanvas } from "./src/index";
-import { resolutions } from './src/resolutions';
+import {RecordCanvas} from "./src/index";
+import {resolutions} from "./src/resolutions";
 
-export {
+export default {
   RecordCanvas,
-  resolutions
-}
+  resolutions,
+};

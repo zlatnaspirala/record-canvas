@@ -70,6 +70,24 @@ Inputs for `any-canvas-example.js`
   };
 ```
 
+
+New import export definition:
+
+```typescript
+import RC from "record-canvas";
+let options = {
+  // injectCanvas: "orId",
+  injectCanvas: document.getElementsByTagName("canvas")[0],
+  frameRequestRate: 30,
+  videoDuration: 10,
+  outputFilename: "record-canvas.mp4",
+  mineType: "video/mp4",
+  resolutions: '800x600'
+}
+this.recordCanvas = new (RC as any).RecordCanvas(this.options);
+```
+
+
 ### Next features:
    Add input options:
     - No generic audio context - No user request needed for download
